@@ -228,17 +228,6 @@ body {
   line-height: 20px;
 }
 
-a {
-  color: #00eeee;
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: #00eeee;
-  text-decoration: underline;
-}
-
 .img-rounded {
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
@@ -2010,7 +1999,7 @@ table {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #008000;
+  border-top: 6px ridge #eeeeee;
 }
 
 .table th {
@@ -2044,7 +2033,7 @@ table {
 }
 
 .table-bordered {
-  border: 1px solid #008000;
+  border: 6px ridge #eeeeee;
   border-collapse: separate;
   *border-collapse: collapse;
   border-left: 0;
@@ -2055,7 +2044,7 @@ table {
 
 .table-bordered th,
 .table-bordered td {
-  border-left: 1px solid #008000;
+  border-left: 6px ridge #eeeeee;
 }
 
 .table-bordered caption + thead tr:first-child th,
@@ -6176,10 +6165,6 @@ blink {
       -ms-animation: blink 1s linear infinite;
        -o-animation: blink 1s linear infinite;
           animation: blink 1s linear infinite;
-}
-
-body {
-  -webkit-font-smoothing: none;
 }
 
 .navbar {
